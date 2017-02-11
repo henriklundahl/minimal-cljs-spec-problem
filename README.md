@@ -2,6 +2,8 @@
 
 This demonstrates a problem with clojure.spec in ClojureScript 1.9.456 and 1.9.473.
 
+See [CLJS-1935](http://dev.clojure.org/jira/browse/CLJS-1935).
+
 The problem is that you might get an exception similar to the following under certain conditions when calling `cljs.spec/valid?`:
 
 ```
